@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=CAPS_KEY_FIX
+Comment=
+Exec=xmodmap /home/john/.xmodmap
+Icon=gdm-setup
+Path=
+Terminal=false
+StartupNotify=false
