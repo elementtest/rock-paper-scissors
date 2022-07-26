@@ -1,4 +1,5 @@
 #/bin/bash
+#used for personal linux system
 #opens up odin project,github&youtube in firefox
 
 firefox https://www.theodinproject.com/paths/foundations/courses/foundations
