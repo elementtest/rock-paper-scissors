@@ -26,3 +26,5 @@ will continue to find tools that help with work flow... have already added quite
 in addition to those work flow improvements.  I also have the vscode extensions.  I implemented VIM just recently... and what else? prettier extension which i need to play around with.  and the live server extension which will make editing and displaying changes in the browser a lot better and a lot less pain.  
 
 also added reset.css which basically a css style sheet that makes it more compatible across browsers
+
+edit
