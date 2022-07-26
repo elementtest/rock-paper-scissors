@@ -1,4 +1,11 @@
 # rock-paper-scissors
+READ FIRST
+this code is written by 'Coding with Rob' on Youtube.  I followed along entering exactly what he did as a refresher for javascript considering I have not practiced in a long time.  Most of my time has been spent with learning JS DOM recently.  
+
+I now plan to follow along with the odin project on creating a UI possibly for the rock paper scissors game that was produced from following along with Rob's videos.  I do not claim any of the code as my own, this is purely for practice.  
+
+
+
 rock paper scissors game from the odin project
 
 Re doing the project to remind myself of the concepts (did months ago)
