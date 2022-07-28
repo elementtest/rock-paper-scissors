@@ -3,5 +3,5 @@
 git add *
 read -p "git commit description: " desc
 git commit -m "$desc"
-git push origin main
+git push origin rps-ui
 
