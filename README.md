@@ -4,8 +4,8 @@ this code is written by 'Coding with Rob' on Youtube.  I followed along entering
 
 *****************************************
 *****************************************
-
 MISCALLANEOUS NOTES FOR MYSELF BELOW:::::::::::::::::::::
+USE A .PLAN file for miscallaneous notes on project planning/creation 
 I now plan to follow along with the odin project on creating a UI possibly for the rock paper scissors game that was produced from following along with Rob's videos.  I do not claim any of the code as my own, this is purely for practice.  
 
 
