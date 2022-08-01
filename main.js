@@ -1,3 +1,4 @@
+//two arrays one for computer choices and one titled winners
 const choices = ["rock", "paper", "scissors"];
 let winners = [];
 
@@ -20,7 +21,7 @@ function playRound(round) {
 function playerChoice() {
   let input = prompt("Type Rock, Paper, or Scissors");
   while (input == null) {
-    input = prompt("Type Rock, Paper, or Scissors");
+    input = prompt("Nope no cancel button for you.  Rock, Paper or Scissors?");
   }
   input = input.toLowerCase();
   let check = validateInput(input);

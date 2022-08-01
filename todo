@@ -1,0 +1,13 @@
+a
+remove logic that plays 5 rounds 
+X
+b
+create three buttons.  
+one for rock
+one for paper
+one for scissors
+
+add event listener to each one
+
+event listener calls PlayRound Function 
+with correct selection
