@@ -1,7 +1,8 @@
 //two arrays one for computer choices and one titled winners
 const choices = ["rock", "paper", "scissors"];
 let winners = [];
-
+/*
+//logic plays 5 rounds of the game
 function game() {
   for (let i = 1; i <= 5; i++) {
     playRound(i);
@@ -9,7 +10,7 @@ function game() {
   document.querySelector("button").textContent = "Play new game";
   logWins();
 }
-
+*/
 function playRound(round) {
   const playerSelection = playerChoice();
   const computerSelection = computerChoice();
