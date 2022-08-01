@@ -10,4 +10,4 @@ one for scissors
 add event listener to each one
 
 event listener calls PlayRound Function 
-with correct selection
+with correct selection added
