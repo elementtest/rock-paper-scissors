@@ -2,6 +2,9 @@ a
 remove logic that plays 5 rounds 
 X
 b
+make each div clickable (not just the text)
+
+
 create three buttons.  
 one for rock
 one for paper
@@ -11,3 +14,19 @@ add event listener to each one
 
 event listener calls PlayRound Function 
 with correct selection added
+
+c
+add a div (display results and change all console.log into DOM methods)
+
+d 
+display a running score, announce the winner of a game once player reaches 5 points
+(you will have to rework the code to make this work)
+
+e
+when done commit changes to the rps-ui branch
+
+
+NOTES:
+select button: 
+once button is selected make playerChoice input = to the same thing as the inputso how do we do that?  
+

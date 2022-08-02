@@ -1,7 +1,6 @@
 //two arrays one for computer choices and one titled winners
 const choices = ["rock", "paper", "scissors"];
 let winners = [];
-/*
 //logic plays 5 rounds of the game
 function game() {
   for (let i = 1; i <= 5; i++) {
@@ -10,7 +9,29 @@ function game() {
   document.querySelector("button").textContent = "Play new game";
   logWins();
 }
+/*
+CODE WRITTEN FOR RPS UI
 */
+const btnrock = document.querySelector('#btn-rock');
+const btnpaper = document.querySelector('#btn-paper');
+const btnscissors = document.querySelector('#btn-scissors');
+
+function chooseFunction(uUinput) {
+  console.log('this is a function fu ::: ' + uUinput);
+};
+
+btnrock.onclick = () => chooseFunction('whatever');
+btnpaper.onclick = () => console.log('paper ok');
+btnscissors.onclick = () => console.log('scissors ok');
+
+
+
+
+
+/*
+CODE WRITTEN FOR RPS UI
+*/
+
 function playRound(round) {
   const playerSelection = playerChoice();
   const computerSelection = computerChoice();
