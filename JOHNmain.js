@@ -37,11 +37,13 @@ function computerChoice() {
     // console.log('compy mccomputer chooses!   ' + compChoose); 
     return compChoose;
 }
+//START START START START START START START HERE
 // 1  
 //create nodes for each button in index.html
 const btnrock = document.querySelector('#btn-rock');
 const btnpaper= document.querySelector('#btn-paper');
 const btnsiz= document.querySelector('#btn-siz');
+// var btnconsole = document.querySelector('btn-console')
 // 2 
 //create event listeners for each div in index.html
 //input string ie rock paper or scissors into game function 
@@ -65,17 +67,30 @@ function checkWinner(choiceP, choiceC) {
     }
         
 };
-// 10 
-// logs what the player chose
-//logs the computer choice
-//logs who won from the returns in the checkWinner function
-//above
+//BELOW create variables to link the elements on the page by their unique id to the DOM elements using query selector
+var blueConsole = document.querySelector('#btn-console');
+var compConsole = document.querySelector('#btn-console-computer');
+var totalConsole = document.querySelector('#btn-console-total');
 function logRound(playerChoice, computerChoice, winner) {
-    console.log('Player Chose:', playerChoice);
+    playConstText = console.log('Player:', playerChoice);
     console.log('Computer Chose:', computerChoice);
     console.log(winner);
-    console.log('(@#$&*#@$@#*($&#*@($&#@*($&#@*($&#*(@$&#*@(');
+    console.log('(@#$&*#@$@#*($&#*@($&#@*($&#@*($&#*(@$&#*@)');
+//TEST CODE BELOW 
+//Using dom to output feel free to delete if not working
 
+    blueConsole.innerHTML = '<h4>Player choice:' + playerChoice+'';
+
+	compConsole.innerHTML = '<h4>Computer choice;' + computerChoice+'';
+
+	totalConsole.innerHTML = '<h4>Winner:' + winner+'';
+
+    
+
+
+    // output.innerHTML = '<h3>MouseX: '+e.offsetX+' </h3><h3>MouseY: '+e.offsetY+ '</h3>';
+    //this code block is what helped you finally find a way to do it.. i think the best way is create 3 divs... one for each of the player choice the computer choice and the outcome and just have them stacked on top of each other or something
+    
 };
 
 
